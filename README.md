@@ -1,9 +1,6 @@
 ![Data package](package.png)
 
-This repo contains the results data for Adaptyv Bio’s [EGFR Protein Design Competition](https://design.adaptyvbio.com/). It includes:
-
-- Processed data in [package](package) folder.
-- Raw lab data and BLI curves in [results](results) folder.
+This repo contains the results data for Adaptyv Bio’s [EGFR Protein Design Competition](https://design.adaptyvbio.com/). It includes processed data in [package](package) folder. The raw data can be downloaded [here](https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition/package.zip).
 
 # Methods
 
@@ -29,18 +26,18 @@ The databases that we checked are SwisssProt, THPdb, USPTO and binders designed 
 
 ## Experimental Workflow
 
-**DNA Design**
+## DNA Design
 
 The submitted protein sequences were reverse-translated, and the corresponding DNA sequences were optimized using Adaptyv's internal pipeline. This process considered several parameters, including optimal codon usage for cell-free systems, mRNA secondary structure stability, and synthesizability factors. Additionally, non-coding regions at the 5' and 3' ends, optimized for cell-free expression, were incorporated into the coding sequences. Suitable gene constructs were successfully generated for all submitted protein sequences.
 
-**Protein Synthesis**
+## Protein Synthesis
 
 Protein synthesis was carried out using an optimized cell-free expression system, suitable for a wide range of proteins. The template DNA was added, and protein expression was conducted over a defined period. During the competition, at least two expression batches were performed for each sequence entry, with some sequences tested up to four times under varying conditions. Protein synthesis success was assessed via a label-free quantification assay. Sequences that yielded less than 0.02 µg/mL of protein were excluded from further experimental characterization.
 
-**Binding Assay**
+## Binding Assay
 
 The binding assay was conducted using Bio-Layer Interferometry (BLI), a label-free technology for biomolecular interaction measurement. A multi-cycle kinetic assay was performed against the target antigen. Expressed ligands were immobilized on the probe surface using tag-specific chemistry, and several concentrations of the antigen (ranging from 316.2 nM to 10 nM) were flowed over the probe. The experiments were performed in duplicate using a PBS-T buffer with 0.02% BSA at 25°C.
 
-**Data analysis**
+## Data analysis
 
 To get the final KD values, we fit the BLI curves to a 1:1 binding model. For the curves where a KD value could not be estimated, we say that binding is weak (if the BLI signal is strong) or unknown (if the protein did not express or if the signal is weak compared to negative controls).
