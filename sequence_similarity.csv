@@ -1,0 +1,75 @@
+id,db_id,identity,alignment_length,num_mismatches,query_coverage,target_coverage,db,similarity_check
+mw88-CRYSTAL_STRUCTURE:A,G1TNM3,1.0,160,0,1.0,0.658,swissprot,1.0
+ahmedsameh-y4,USPTO:WPV81154,1.0,132,0,1.0,1.0,uspto,1.0
+ahmedsameh-Q3,USPTO:WPV81154,1.0,131,0,0.992,0.992,uspto,0.992
+ahmedsameh-s3,USPTO:WPV81154,0.992,132,1,1.0,1.0,uspto,0.992
+ahmedsameh-y6,USPTO:WPV81154,0.992,132,1,1.0,1.0,uspto,0.992
+ahmedsameh-yy2,USPTO:WPV81154,0.992,132,1,1.0,1.0,uspto,0.992
+cchallacombe-thermo1,USPTO:WIU66828,0.976,127,3,1.0,1.0,uspto,0.976
+tim-silica_corpora_sampled_epitope_0_generated_variant_10_rank_8,USPTO:QFN31540,0.903,124,12,1.0,0.468,uspto,0.903
+cchallacombe-it_design1,USPTO:WPU02581,0.887,124,13,1.0,0.137,uspto,0.887
+tim-silica_corpora_sampled_epitope_1_generated_variant_15_rank_3,USPTO:WLL61147,0.886,123,14,1.0,0.456,uspto,0.886
+rohaneis-design3,USPTO:AUE42433,0.902,154,15,0.981,1.0,uspto,0.884862
+tim-silica_corpora_sampled_epitope_6_generated_variant_18_rank_10,USPTO:UOS75743,0.878,123,15,1.0,0.48,uspto,0.878
+tim-silica_corpora_sampled_epitope_1_generated_variant_17_rank_6,USPTO:WLL61171,0.878,123,15,1.0,0.456,uspto,0.878
+tim-silica_corpora_sampled_epitope_0_generated_variant_7_rank_4,USPTO:ADS57092,0.859,128,18,1.0,1.0,uspto,0.859
+cchallacombe-anti_1,USPTO:WIU67025,0.827,122,21,1.0,0.137,uspto,0.827
+tobiasoverme-seq19,USPTO:WIO01695,0.826,124,21,1.0,0.325,uspto,0.826
+tobiasoverme-seq26,USPTO:WON02847,0.822,124,22,1.0,0.117,uspto,0.822
+joaosartori2-design4,USPTO:WON02692,0.814,124,23,1.0,0.119,uspto,0.814
+joaosartori2-design8,USPTO:WIU66982,0.814,124,23,1.0,0.138,uspto,0.814
+tobiasoverme-seq18,USPTO:WIU66992,0.814,124,23,1.0,0.138,uspto,0.814
+gitter-yolo1,USPTO:QPT61731,0.86,50,7,0.943,0.093,uspto,0.8109799999999999
+joaosartori2-design1,USPTO:WON02696,0.806,124,24,1.0,0.119,uspto,0.806
+joaosartori2-design7,USPTO:WON02675,0.806,124,24,1.0,1.0,uspto,0.806
+joaosartori2-design5,USPTO:WPU02329,0.806,124,24,1.0,1.0,uspto,0.806
+tobiasoverme-seq22,USPTO:WIU67094,0.795,124,25,1.0,0.139,uspto,0.795
+alex.naka-aa2c76,P01132,0.812,48,9,0.96,0.039,swissprot,0.77952
+tobiasoverme-seq20,USPTO:WON02696,0.766,124,29,1.0,0.119,uspto,0.766
+alex.naka-36550b,USPTO:AFQ83089,0.826,46,8,0.92,0.868,uspto,0.75992
+jj700physics-model2,USPTO:AHD75699,0.82,50,8,0.909,0.26,uspto,0.7453799999999999
+brett-egfr_vhh_0007h,USPTO:QPY07436,0.788,109,21,0.94,0.829,uspto,0.74072
+brett-egfr_vhh_0005h,Th1123,0.776,110,23,0.948,0.151,thpdb,0.735648
+alex.naka-af805e,USPTO:ACM96667,0.765,47,11,0.94,0.887,uspto,0.7191
+brett-egfr_vhh_0006h,Th1123,0.75,110,26,0.948,0.151,thpdb,0.711
+brett-egfr_vhh_0001h,Th1123,0.741,110,27,0.948,0.151,thpdb,0.702468
+alex.naka-8a700d,P01132,0.729,48,13,0.96,0.039,swissprot,0.6998399999999999
+alex.naka-233236,P01132,0.714,49,14,0.98,0.04,swissprot,0.69972
+alecl-Sequence6,USPTO:AFQ83082,0.755,49,12,0.925,0.925,uspto,0.6983750000000001
+salireza111-sewing1,Q06922,1.0,23,0,0.697,0.144,swissprot,0.697
+brett-egfr_vhh_0004h,Th1123,0.733,109,27,0.94,0.146,thpdb,0.68902
+alex.naka-06b390,P01132,0.708,48,14,0.96,0.039,swissprot,0.67968
+alex.naka-dda1c8,USPTO:WQA34354,0.702,47,14,0.94,0.979,uspto,0.6598799999999999
+alex.naka-65bf78,P01132,0.666,48,16,0.96,0.039,swissprot,0.63936
+alex.naka-158511,USPTO:WQA34354,0.659,47,16,0.94,0.979,uspto,0.61946
+alecl-Sequence2,USPTO:AFQ83082,0.695,46,14,0.868,0.868,uspto,0.6032599999999999
+alex.naka-e50198,P01132,0.625,48,18,0.96,0.039,swissprot,0.6
+biolucasmachado-modeled_seq_28_0.8430711186180512,USPTO:WIN80291,0.589,117,48,1.0,0.848,uspto,0.589
+biolucasmachado-modeled_seq_44_0.8170051102916527,USPTO:ARH63887,0.594,116,47,0.991,0.119,uspto,0.588654
+alecl-Sequence3,USPTO:AHE16452,0.673,46,15,0.868,0.049,uspto,0.584164
+alecl-Sequence1,USPTO:AFQ83082,0.673,46,15,0.868,0.868,uspto,0.584164
+biolucasmachado-modeled_seq_20_0.8425151410743467,USPTO:AEH68007,0.596,114,46,0.974,0.958,uspto,0.5805039999999999
+alecl-Sequence5,USPTO:AFQ83082,0.652,46,16,0.868,0.868,uspto,0.565936
+biolucasmachado-modeled_seq_7_0.8568448427523303,USPTO:WZE29122,0.555,117,52,1.0,0.983,uspto,0.555
+alecl-Sequence10,USPTO:AFQ83082,0.608,46,18,0.868,0.868,uspto,0.527744
+alecl-Sequence7,USPTO:AFQ83082,0.6,45,18,0.849,0.849,uspto,0.5094
+alecl-Sequence9,USPTO:AFQ83056,0.6,45,18,0.849,0.849,uspto,0.5094
+alecl-Sequence4,USPTO:AFQ83082,0.627,43,16,0.811,0.811,uspto,0.5084970000000001
+biolucasmachado-modeled_seq_8_0.812666993524529,USPTO:UCX19815,0.504,116,57,0.991,0.975,uspto,0.499464
+cchallacombe-dock_if3,USPTO:QXC72919,0.47,117,61,0.967,0.983,uspto,0.4544899999999999
+tadej.satler-1DI7,Motif0156_ems_3hM_451_0001_0003_0001,0.522,44,20,0.846,0.672,paper,0.441612
+alecl-Sequence8,USPTO:AFQ83082,0.5,46,23,0.868,0.868,uspto,0.434
+"colby-TUPEGFR_018 | anti-EGFR, Fv-like protein, diffused with ESM3",USPTO:ACM97093,0.877,98,12,0.49,0.711,uspto,0.42973
+"colby-TUPEGFR_017 | anti-EGFR, Fv-like protein, diffused with ESM3",USPTO:WIS47472,0.838,93,15,0.465,0.85,uspto,0.38967
+svs25-seq3,P34576,0.434,46,24,0.83,0.012,swissprot,0.36022
+mw88-1_BACK_INTER_ENERGY1,USPTO:WFJ14064,0.802,86,17,0.43,0.804,uspto,0.34486
+carlos.bueno-WWB65,USPTO:WIO00468,0.811,85,16,0.425,0.794,uspto,0.344675
+svs25-seq4,USPTO:QBE02277,0.431,44,23,0.792,0.014,uspto,0.341352
+cchallacombe-diff_1,Th1089,0.335,122,78,0.976,0.902,thpdb,0.32696
+"colby-TUPEGFR_003 | anti-EGFR, Fv-like protein, diffused with EvoDiff",USPTO:QDB05331,0.618,97,35,0.485,0.86,uspto,0.29973
+"colby-TUPEGFR_010 | anti-EGFR, Fv-like protein, diffused with EvoDiff",USPTO:AAE72501,0.626,91,32,0.455,0.819,uspto,0.28483
+eugene.valkov-rfdiff_design_84_12_dldesign_3_af2pred,cside_mot_8cc69fd10c715b5369bf2528bda9db37_0001_1_000000002_0001_39_47_H_._bcov_4helix_12471_0001_0004_0001,0.343,67,37,0.798,0.892,paper,0.273714
+"colby-TUPEGFR_013 | anti-EGFR, Fv-like protein, diffused with EvoDiff",USPTO:WPZ96700,0.519,104,50,0.52,0.408,uspto,0.26988
+alan.blakely-design:5 n:6|mpnn:1.247|plddt:0.825|ptm:0.709|pae:10.151|rmsd:3.535,P01133,1.0,49,0,0.263,0.041,swissprot,0.263
+alan.blakely-design:6 n:5|mpnn:1.128|plddt:0.832|ptm:0.725|pae:9.934|rmsd:3.788,USPTO:ATJ18845,1.0,48,0,0.258,0.906,uspto,0.258
+mw88-10_SWAP_FOLDING_E3,USPTO:WPT47826,0.428,91,51,0.455,0.765,uspto,0.19474
