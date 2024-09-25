@@ -4,15 +4,17 @@ This repo contains the results data for Adaptyv Bio’s [EGFR Protein Design Com
 
 # Methods
 
-## PAE Scores
+## Metrics
+
+### PAE Scores
 
 The designs were first assessed using the **PAE_interaction** metric. To calculate this, we began by generating a structural prediction using ColabFold (with 2 models, 5 recycles, and no initial guess or templates). The Predicted Aligned Error (PAE) of the top-ranked prediction was then averaged across residue pairs, where one residue belongs to the target and the other to the binder, as done [here](https://github.com/nrbennet/dl_binder_design/blob/cafa3853ac94dceb1b908c8d9e6954d71749871a/af2_initial_guess/predict.py#L197).
 
-## pLDDT Scores
+### pLDDT Scores
 
 For each design we also computed the corresponding predicted Local Distance Difference Test (pLDDT) scores from AlphaFold2. Instead of considering the entire protein complex, we focused exclusively on the binder chain, excluding other regions. We computed the average pLDDT score over all residues of the binder chain alone.
 
-## Sequence Similarity Check
+### Sequence Similarity Check
 
 We checked each sequence against several databases of known sequences. As part of the initial competition rules, only proteins that were more than 10 amino acids (AA) away from a known binder were considered valid and counted in the final leaderboard. The results of that similarity search are stored in the “similarity_check” column. The similarity check metric is calculated as `identity * coverage`, where:
 
@@ -24,7 +26,7 @@ Proteins with less than 10 amino acid distance to a database entry were excluded
 
 The databases that we checked are SwisssProt, THPdb, USPTO and binders designed by [Cao et al. (2022)](https://www.nature.com/articles/s41586-022-04654-9). The scripts can be found in the [scripts](scripts) folder.
 
-## Experimental Workflow
+### Experimental Workflow
 
 ### DNA Design
 
