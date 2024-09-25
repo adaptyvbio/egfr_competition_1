@@ -1,5 +1,3 @@
-![Data package](image.png)
-
 This repo contains the results data for Adaptyv Bio’s [EGFR Protein Design Competition](https://design.adaptyvbio.com/).
 
 - Processed characterization data can be found in the [results](results) folder
