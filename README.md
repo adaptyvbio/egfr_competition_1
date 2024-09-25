@@ -26,7 +26,7 @@ Proteins with less than 10 amino acid distance to a database entry were excluded
 
 The databases that we checked are SwisssProt, THPdb, USPTO and binders designed by [Cao et al. (2022)](https://www.nature.com/articles/s41586-022-04654-9). The scripts can be found in the [scripts](scripts) folder.
 
-### Experimental Workflow
+## Experimental Workflow
 
 ### DNA Design
 
