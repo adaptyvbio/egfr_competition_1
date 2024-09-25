@@ -1,5 +1,6 @@
-import pandas as pd
+# before running this script, you need to generate the m8 files for each database with mmseqs_script.sh
 
+import pandas as pd
 
 if __name__ == "__main__":
     databases = ["uspto", "swissprot", "thpdb", "paper"]
