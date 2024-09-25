@@ -1,4 +1,4 @@
-![Data package](package.png)
+![Data package](image.png)
 
 This repo contains the results data for Adaptyv Bio’s [EGFR Protein Design Competition](https://design.adaptyvbio.com/).
 
