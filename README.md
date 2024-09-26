@@ -49,4 +49,4 @@ The binding assay was conducted using Bio-Layer Interferometry (BLI), a label-fr
 
 ### Data analysis
 
-To get the final KD values, we fit the BLI curves to a 1:1 binding model. For the curves where a KD value could not be estimated, we say that binding is weak (if the BLI signal is strong) or unknown (if the protein did not express or if the signal is weak compared to negative controls).
+The binding signals were baseline-corrected and globally fitted using a 1:1 binding model across all tested concentrations for each replicate (Global Fitting). This approach allowed us to extract the kinetic rates (association and dissociation) and calculate the affinity constants (KD) for each ligand. The predicted binding curves were generated based on the fit parameters, ensuring an accurate representation of the interaction dynamics. In cases where the maximum signal fell below the quantifiable threshold, or when the interaction kinetics were too fast relative to the device's temporal resolution, we employed equilibrium analysis to estimate the dissociation constant (KD). Each experimental replicate was analized independently.
