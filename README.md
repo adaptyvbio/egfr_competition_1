@@ -50,3 +50,11 @@ The binding assay was conducted using Bio-Layer Interferometry (BLI), a label-fr
 ### Data analysis
 
 The binding signals were baseline-corrected and globally fitted using a 1:1 binding model across all tested concentrations for each replicate (Global Fitting). This approach allowed us to extract the kinetic rates (association and dissociation) and calculate the affinity constants (KD) for each ligand. The predicted binding curves were generated based on the fit parameters, ensuring an accurate representation of the interaction dynamics. In cases where the maximum signal fell below the quantifiable threshold, or when the interaction kinetics were too fast relative to the device's temporal resolution, we employed equilibrium analysis to estimate the dissociation constant (KD). Each experimental replicate was analized independently.
+
+### Predicted Binding Experiments
+
+Candidate sequences were folded into PDB structures using ColabFold (AlphaFold2 + MMSeqs) in Docker (using image `ghcr.io/sokrypton/colabfold:1.5.5-cuda12.2.2`). The top-ranked model was selected for each candidate sequence. This was also performed on a series of reference antibodies such as cetuximab.
+
+Then, using [HADDOCK 3](https://github.com/haddocking/haddock3), the candidate-EGFR complex was predicted and binding metrics were collected. The representative "best" structure  was selected based on the lowest Van der Waals energy value of the best cluster of outputs. Its metrics were collected along with the aggregated metrics of the best cluster of predicted complexes. These metrics are shown in the [results/docking_predictions/predicted_binding_metrics.xlsx](results/docking_predictions/predicted_binding_metrics.xlsx) file. _Note: a few candidates did not produce a predicted output in this workflow._
+
+This predicted docking workflow was completed by [Colby T. Ford](https://github.com/colbyford) (from [Tuple - The Cloud Genomics Company](https://tuple.xyz) and [Silico Biociences](https://silico.bio)).
