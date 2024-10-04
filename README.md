@@ -25,9 +25,9 @@ For each design we also computed the corresponding predicted Local Distance Diff
 
 We checked each sequence against several databases of known sequences. As part of the initial competition rules, only proteins that were more than 10 amino acids (AA) away from a known binder were considered valid and counted in the final leaderboard. The results of that similarity search are stored in the “similarity_check” column. The similarity check metric is calculated as `identity * coverage`, where:
 
-•	**Identity** is the percentage of matching amino acids between the a subsequence of the query and a subsequence of the database entry.
+• **Identity** is the percentage of matching amino acids between the a subsequence of the query and a subsequence of the database entry.
 
-•	**Coverage** is the proportion of the query sequence that aligns with a database entry.
+• **Coverage** is the proportion of the query sequence that aligns with a database entry.
 
 Proteins with less than 10 amino acid distance to a database entry were excluded from the competition. A `similarity_check` value of “null” indicates that no matches were found in any of the the databases.
 
@@ -50,3 +50,12 @@ The binding assay was conducted using Bio-Layer Interferometry (BLI), a label-fr
 ### Data analysis
 
 The binding signals were baseline-corrected and globally fitted using a 1:1 binding model across all tested concentrations for each replicate (Global Fitting). This approach allowed us to extract the kinetic rates (association and dissociation) and calculate the affinity constants (KD) for each ligand. The predicted binding curves were generated based on the fit parameters, ensuring an accurate representation of the interaction dynamics. In cases where the maximum signal fell below the quantifiable threshold, or when the interaction kinetics were too fast relative to the device's temporal resolution, we employed equilibrium analysis to estimate the dissociation constant (KD). Each experimental replicate was analyzed independently.
+
+### Predicted Binding Experiments
+
+Candidate sequences were folded into PDB structures using ColabFold (AlphaFold2 + MMSeqs) in Docker (using image `ghcr.io/sokrypton/colabfold:1.5.5-cuda12.2.2`). The top-ranked model was selected for each candidate sequence. This was also performed on a series of reference antibodies such as cetuximab.
+
+Then, using [HADDOCK 3](https://github.com/haddocking/haddock3), the candidate-EGFR complex was predicted and binding metrics were collected. The representative "best" structure was selected based on the lowest Van der Waals energy value of the best cluster of outputs. Its metrics were collected along with the aggregated metrics of the best cluster of predicted complexes. These metrics are shown in the [results/docking_predictions/predicted_binding_metrics.xlsx](results/docking_predictions/predicted_binding_metrics.xlsx) file. The raw PDB files can be found [here](https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition/docking_predictions.zip) for further analysis.
+_Note: a few candidates did not produce a predicted output in this workflow._
+
+This predicted docking workflow was completed by [Colby T. Ford](https://github.com/colbyford) (from [Tuple - The Cloud Genomics Company](https://tuple.xyz) and [Silico Biociences](https://silico.bio)).
