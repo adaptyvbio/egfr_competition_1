@@ -33,6 +33,10 @@ Proteins with less than 10 amino acid distance to a database entry were excluded
 
 The databases that we checked are SwisssProt, THPdb, USPTO and binders designed by [Cao et al. (2022)](https://www.nature.com/articles/s41586-022-04654-9). The scripts can be found in the [scripts](scripts) folder.
 
+### Expression and "nc_adjusted_expression"
+
+The "expression" values reported in the data package are based on the protein loading on the sensor during the affinity assay, which is computed directly from the raw processed data. In some cases, higher levels of non-specific binding may cause certain samples to show unexpectedly high loading. These samples are reference-subtracted against the negative control (buffer) and cross-verified with an additional assay for protein quantification. The "nc_adjusted_expression" values are calculated using this process.
+
 ## Experimental Workflow
 
 ### DNA Design
