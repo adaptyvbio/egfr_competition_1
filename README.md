@@ -63,3 +63,7 @@ Then, using [HADDOCK 3](https://github.com/haddocking/haddock3), the candidate-E
 _Note: a few candidates did not produce a predicted output in this workflow._
 
 This predicted docking workflow was completed by [Colby T. Ford](https://github.com/colbyford) (from [Tuple - The Cloud Genomics Company](https://tuple.xyz) and [Silico Biociences](https://silico.bio)).
+
+# License
+
+All code is licensed under Apache 2, all data is licensed under the [ODbL](https://opendatacommons.org/licenses/odbl/). Contact igor@COMPANYNAME.com or any other responsible at Adaptyv if you require a different license.
