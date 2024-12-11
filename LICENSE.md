@@ -1,5 +1,5 @@
 The contents of this repository are licensed under the [ODbL](https://opendatacommons.org/licenses/odbl/) (data) and apache 2 (code) respectively.
-Contact igor@COMPANYNAME.com (or any later responsible at Adaptyv Biosystems Sàrl) if you require a commercial usage license without the obligatoins of the
+Contact igor@COMPANYNAME.com (or any later responsible at Adaptyv Biosystems Sàrl) if you require a commercial usage license without the obligations of the
 
 # Data license (ODbL)
 
