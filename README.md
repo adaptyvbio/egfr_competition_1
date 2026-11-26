@@ -6,7 +6,7 @@ This repo contains the results data for Round 1 of Adaptyv Bio’s [EGFR Protein
 - Raw lab data and kinetic curves can be downloaded here:
 
 ```
-https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition/package.zip
+https://adaptyvbio-egfr-design-competition.s3.eu-central-1.amazonaws.com/package.zip
 ```
 
 # Methods
@@ -59,7 +59,7 @@ The binding signals were baseline-corrected and globally fitted using a 1:1 bind
 
 Candidate sequences were folded into PDB structures using ColabFold (AlphaFold2 + MMSeqs) in Docker (using image `ghcr.io/sokrypton/colabfold:1.5.5-cuda12.2.2`). The top-ranked model was selected for each candidate sequence. This was also performed on a series of reference antibodies such as cetuximab.
 
-Then, using [HADDOCK 3](https://github.com/haddocking/haddock3), the candidate-EGFR complex was predicted and binding metrics were collected. The representative "best" structure was selected based on the lowest Van der Waals energy value of the best cluster of outputs. Its metrics were collected along with the aggregated metrics of the best cluster of predicted complexes. These metrics are shown in the [results/docking_predictions/predicted_binding_metrics.xlsx](results/docking_predictions/predicted_binding_metrics.xlsx) file. The raw PDB files can be found [here](https://api.adaptyvbio.com/storage/v1/object/public/egfr_design_competition/docking_predictions.zip) for further analysis.
+Then, using [HADDOCK 3](https://github.com/haddocking/haddock3), the candidate-EGFR complex was predicted and binding metrics were collected. The representative "best" structure was selected based on the lowest Van der Waals energy value of the best cluster of outputs. Its metrics were collected along with the aggregated metrics of the best cluster of predicted complexes. These metrics are shown in the [results/docking_predictions/predicted_binding_metrics.xlsx](results/docking_predictions/predicted_binding_metrics.xlsx) file. The raw PDB files can be found [here](https://adaptyvbio-egfr-design-competition.s3.eu-central-1.amazonaws.com/docking_predictions.zip) for further analysis.
 _Note: a few candidates did not produce a predicted output in this workflow._
 
 This predicted docking workflow was completed by [Colby T. Ford](https://github.com/colbyford) (from [Tuple - The Cloud Genomics Company](https://tuple.xyz) and [Silico Biociences](https://silico.bio)).
